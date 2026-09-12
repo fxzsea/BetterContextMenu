@@ -143,8 +143,18 @@
         "type": "checkbox"
     },
     {
+        "property": "uc.hidecontext.viewsource",
+        "label": "\ud83c\udf10 \ud83d\udd24 Hide 'View Page Source' option",
+        "type": "checkbox"
+    },
+    {
         "property": "uc.hidecontext.inspect",
-        "label": "\ud83c\udf10 \ud83d\udd24 Hide 'View Page Source' & 'Inspect' options",
+        "label": "\ud83c\udf10 \ud83d\udd24 Hide 'Inspect Element' option",
+        "type": "checkbox"
+    },
+    {
+        "property": "uc.hidecontext.accessibility",
+        "label": "\ud83c\udf10 \ud83d\udd24 Hide 'Inspect Accessibility Properties' option",
         "type": "checkbox"
     },
     {
