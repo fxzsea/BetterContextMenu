@@ -842,3 +842,21 @@
     }
   }
 }
+
+/* Ocultar solo Ver código fuente */
+#mainPopupSet:has(#usercontext-options:is([data-uc-hidecontext-viewsource="true"])) #context-viewsource,
+:root[uc-hidecontext-viewsource="true"] #context-viewsource {
+  display: none !important;
+}
+
+/* Ocultar solo Inspeccionar */
+#mainPopupSet:has(#usercontext-options:is([data-uc-hidecontext-inspect="true"])) #context-inspect,
+:root[uc-hidecontext-inspect="true"] #context-inspect {
+  display: none !important;
+}
+
+/* Ocultar solo Inspeccionar propiedades de accesibilidad */
+#mainPopupSet:has(#usercontext-options:is([data-uc-hidecontext-accessibility="true"])) #context-inspect-a11y,
+:root[uc-hidecontext-accessibility="true"] #context-inspect-a11y {
+  display: none !important;
+}
